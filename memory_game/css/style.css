@@ -1,0 +1,140 @@
+body {
+	/*background-color: grey*/
+	/*width: 150px;*/
+	/*height: 150px;*/
+	/*border: 2px solid black;*/
+	/*display: inline-block;*/
+	/*margin: 20px;*/
+	/*font-family: Arial, sans-serif;*/
+	/*font-family: "Raleway", sans-serif;*/
+	/*color: #0D2C40;*/
+	/*letter-spacing: 1px;*/
+	/*font-weight: 600;*/
+	text-align: center;
+	/*text-decoration: none;*/
+
+	margin: 0 auto;
+}
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
+
+nav {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+}
+
+a {
+	margin: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-color: #FFFFFF;
+}
+
+main{
+	width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin: 40px 8px;
+}
+
+h1, h2, h3 {
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+}
+
+h2, h3 {
+	/*font-family: "Raleway", sans-serif;*/
+	/*color: #F15B31;*/
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	/*text-transform: uppercase;*/
+	/*background: red;*/
+}
+
+h1 {
+	/*font-family: "Raleway", sans-serif;*/
+	/*color: #0D2C40;*/
+	font-weight: 400;
+	font-size: 45px;
+	/*text-transform: uppercase;*/
+	/*background: white;*/
+	margin: 0 auto;
+}
+
+h3 {
+	/*font-family: "Raleway", sans-serif;*/
+	/*color: #0D2C40;*/
+	/*letter-spacing: 1px;*/
+	/*font-weight: 600;*/
+	/*font-size: 18px;*/
+	/*text-transform: uppercase;*/
+	/*font-weight: bold;*/
+	/*background: red;*/
+}
+
+p {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+	/*margin: 0 auto;*/
+	/*border: 4px solid red;*/
+	/*font-style: italic;*/
+	/*color: yellow;*/
+	/*background: red;*/
+}
+
+footer {
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 400;
+}
+
+.copyright {
+ float: left;
+}
+
+.message {
+ float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+#jsliblurb {
+	float: left;
+	clear: both;
+}
+
+#jslibutton {
+	float: right;
+	margin: 0 auto;
+}
